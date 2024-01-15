@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
 
+## Setup
+To launch the app please make sure that you have Node installed on your local environment. Then unzip/clone the repo.
+After clonning you can do either 'npm install' or 'yarn install' to download and set the necessary dependencies.
+After that you can run either 'npm start' or 'yarn start' to launch the app
+
+## Setup
+This app is part of a task to develop a simple checkout page. On the left-hand side you will find an order details and, on the right-hand side, you can find different payment plans provided by Taly.
+This app is "SEO-friendly" althought it doesn't have Angular Universal (for Server-Side rendering) installed.
+This task was completed on Jan 15th 2024 by Jose Candido
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
