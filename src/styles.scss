@@ -1,1 +1,30 @@
-/* You can add global styles to this file, and also import other style files */
+.body {
+    font-family: "Roboto", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p {
+    font-weight: 100;
+  }
+  
+  .button {
+    background: white;
+    padding: 10px;
+    border: solid 1px darkgrey;
+    border-radius: 50px;
+    font-weight: 400;
+    margin-top: 10px;
+    width: 100%;
+    letter-spacing: 0.11rem;
+    outline: none;
+  }
+
+  .icon {
+    padding-right: 5px;
+    padding-bottom: 5px;
+  }
+
+

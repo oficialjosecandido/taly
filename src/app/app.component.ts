@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
+import { PaymentPlanComponent } from "./components/payment-plan/payment-plan.component";
+import { CheckoutDetailsComponent } from "./components/checkout-details/checkout-details.component";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+    selector: 'app-root',
+    standalone: true,
+    templateUrl: './app.component.html',
+    styleUrl: './app.component.scss',
+    imports: [CommonModule, RouterOutlet, PaymentPlanComponent, CheckoutDetailsComponent]
 })
 export class AppComponent {
-  title = 'taly';
+  title = 'Taly';
 }
