@@ -7,7 +7,7 @@ To launch the app please make sure that you have Node installed on your local en
 After clonning you can do either 'npm install' or 'yarn install' to download and set the necessary dependencies.
 After that you can run either 'npm start' or 'yarn start' to launch the app
 
-## Setup
+## Description
 This app is part of a task to develop a simple checkout page. On the left-hand side you will find an order details and, on the right-hand side, you can find different payment plans provided by Taly.
 This app is "SEO-friendly" althought it doesn't have Angular Universal (for Server-Side rendering) installed.
 This task was completed on Jan 15th 2024 by Jose Candido
